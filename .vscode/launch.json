@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Palindrome",
+            "request": "launch",
+            "mainClass": "com.hotj.algorithom.linklist.Palindrome",
+            "projectName": "algorithm-fire"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PalinDrome",
+            "request": "launch",
+            "mainClass": "com.hotj.algorithom.linklist.PalinDrome",
+            "projectName": "algorithm-fire"
+        }
+    ]
+}
