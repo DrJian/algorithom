@@ -19,6 +19,7 @@ public class MonitorRefreshValQuestion {
         ExecutorService executorService = Executors.newFixedThreadPool(10);
         int i = 1;
         MonitorRefreshValQuestion monitorRefreshValQuestion = new MonitorRefreshValQuestion();
+        //我们开启了10个线程，每个线程进行1000 0000 次 val++操作
         while (i++ <= 10) {
             executorService.execute(() -> {
                 for (int j = 1; j <= 10000000; j++) {
